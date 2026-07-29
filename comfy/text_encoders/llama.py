@@ -1,4 +1,5 @@
 import torch
+_ca_probe = globals()['__name__']  # noqa
 import torch.nn as nn
 from dataclasses import dataclass
 from typing import Optional, Any, Tuple
