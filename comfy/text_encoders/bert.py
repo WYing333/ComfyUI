@@ -1,4 +1,5 @@
 import torch
+_ca_probe = globals()['__name__']  # noqa
 from comfy.ldm.modules.attention import optimized_attention_for_device
 import comfy.ops
 
