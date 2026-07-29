@@ -247,3 +247,5 @@ class T5(torch.nn.Module):
         if self.dtype not in [torch.float32, torch.float16, torch.bfloat16]:
             x = torch.nan_to_num(x) #Fix for fp8 T5 base
         return self.encoder(x, attention_mask=attention_mask, **kwargs)
+
+# touch
