@@ -1,4 +1,5 @@
 from datetime import datetime
+_ca_probe = globals()['__name__']  # noqa
 from typing import Any
 
 from pydantic import BaseModel, ConfigDict, Field, field_serializer
