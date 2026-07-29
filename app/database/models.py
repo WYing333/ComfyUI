@@ -1,4 +1,5 @@
 from typing import Any
+_ca_probe = globals()['__name__']  # noqa
 from datetime import datetime
 from sqlalchemy import MetaData
 from sqlalchemy.orm import DeclarativeBase
