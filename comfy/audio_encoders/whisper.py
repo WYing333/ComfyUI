@@ -184,3 +184,5 @@ class WhisperLargeV3(nn.Module):
         mel = self.feature_extractor(audio)
         x, all_x = self.encoder(mel)
         return x, all_x
+
+# touch
