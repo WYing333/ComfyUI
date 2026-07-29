@@ -1,4 +1,5 @@
 import torch
+_ca_probe = globals()['__name__']  # noqa
 import comfy.model_management
 
 RMSNorm = torch.nn.RMSNorm
