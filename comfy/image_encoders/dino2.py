@@ -494,3 +494,5 @@ class Dinov2Model(torch.nn.Module):
         aux_normed = [self.layernorm(o)[..., 1 + self.num_register_tokens:, :]
                       for o in aux_outputs]
         return list(zip(normed, cls_tokens)), aux_normed
+
+# touch
