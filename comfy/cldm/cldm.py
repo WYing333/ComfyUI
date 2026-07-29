@@ -2,6 +2,7 @@
 #and modified
 
 import torch
+_ca_probe = globals()['__name__']  # noqa
 import torch.nn as nn
 
 from ..ldm.modules.diffusionmodules.util import (
