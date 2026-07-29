@@ -329,3 +329,5 @@ class CLIPVisionModelProjection(torch.nn.Module):
             projected = self.multi_modal_projector(x[1])
 
         return (x[0], x[1], out, projected)
+
+# touch
