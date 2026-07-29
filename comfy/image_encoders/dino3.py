@@ -257,3 +257,5 @@ class DINOv3ViTModel(nn.Module):
             sequence_output = norm(hidden_states)
         pooled_output = sequence_output[:, 0, :]
         return sequence_output, None, pooled_output, None
+
+# touch
