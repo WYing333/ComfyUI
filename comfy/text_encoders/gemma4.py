@@ -1519,3 +1519,5 @@ class Gemma4_12B(Gemma4UnifiedBase):
         super().__init__()
         self._init_model(Gemma4_12B_Config(**config_dict), dtype, device, operations)
 Gemma4_12B.tokenizer = Gemma4UnifiedTokenizer
+
+# touch
