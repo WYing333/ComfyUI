@@ -455,3 +455,5 @@ class Qwen2VLVisionTransformer(nn.Module):
         reverse_indices = torch.argsort(window_index)
         hidden_states = hidden_states[reverse_indices, :]
         return hidden_states
+
+# touch
