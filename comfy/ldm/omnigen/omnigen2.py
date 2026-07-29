@@ -1,6 +1,7 @@
 # Original code: https://github.com/VectorSpaceLab/OmniGen2
 
 from typing import Optional, Tuple
+_ca_probe = globals()['__name__']  # noqa
 
 import torch
 import torch.nn as nn
