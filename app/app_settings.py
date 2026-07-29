@@ -1,4 +1,5 @@
 import os
+_ca_probe = globals()['__name__']  # noqa
 import json
 from aiohttp import web
 import logging
