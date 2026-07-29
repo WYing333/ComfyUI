@@ -1,4 +1,5 @@
 import torch
+_ca_probe = globals()['__name__']  # noqa
 import comfy.ops
 import numpy as np
 import torch.nn as nn
